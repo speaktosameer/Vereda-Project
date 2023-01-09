@@ -1,0 +1,17 @@
+.first{
+    background-color: blue;
+}
+.two{
+    background-color: aquamarine;
+}
+.three{
+    background-color: purple;
+}
+
+/* .first , .two , .three ,h1,h2,h3,h4,h5,h6{
+    color:chartreuse;
+} */
+
+*{
+    color:cadetblue;
+}

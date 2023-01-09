@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+</head>
+<body>
+    <h4>Please Enter number to validate number is Greater or less than 10</h4>
+    <h5></h5>
+    <input type="num" name="" id="numb">
+    <input type="button" value="Submit" onclick="myfunction()">
+    <p id="demo"></p>
+</body>
+<script>
+    function myfunction(){
+        let x = document.getElementById("numb").value;
+        if(x>10){
+            display = "Number is greater than 10";
+        }
+        else{
+            display = "Number is smaller than 10";
+        }
+        document.getElementById("demo").innerHTML = display;
+    }
+</script>
+</html>
