@@ -6,20 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
     <style>
+        *{
+            background-color: aquamarine;
+        }
         table,tr,td{
             border: 1px solid black;
+            background-color: aqua;
         }
         table{
             width: 50%;
             height: 100%;
             text-align: center;
+            
+        }
+        .bord{
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            border: 2px solid black;
+            border-top-left-radius: 20px;
         }
     </style>
 </head>
 <body>
+    <div class="bord">
+
+    </div>
     <table>
         <tr>
-            <td rowspan="3">A</td>
+            <td rowspan="3" style="background-color: aquamarine;">A</td>
             <td colspan="3">B</td>
         </tr>
         <tr>
@@ -28,7 +43,7 @@
             <td rowspan="2">C</td>
         </tr>
         <tr>
-            <td colspan="2">D</td>
+            <td colspan="2" style="background-color: brown;">D</td>
         </tr>
     </table>
 </body>

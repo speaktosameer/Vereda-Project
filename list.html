@@ -6,38 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List in Html</title>
     <style>
-        body{
-            font-weight: bold;
-            font-family: Arial, Helvetica, sans-serif;
+        input[type=button]{
+            background-color: blue;
+            color: aliceblue;
+            padding:10px;
         }
-        .first{
-            list-style-type: square;
+        a{
+            color: black;
+            text-decoration: none;
         }
-        .second{
-            list-style-type: circle;
+        a:hover{
+            font-size: large;
+            color: blue;
+            background-color: brown;
+            display: none;
+        } 
+        ul:hover{
+           
         }
-        ol{
-            list-style-type: upper-roman;
+        .text{
+            width: 50px;
+            background-color: antiquewhite;
+            text-transform: uppercase;
+            direction: ltr;
+            height: 100px;
+            white-space: pre-wrap;
+
+            
         }
+
     </style>
 </head>
 <body>
-   <ul class="first">
-        <li>Maharashtra</li>
-            <ul class="second">
-                <li>Pune</li>
-                    <ol>
-                        <li>Dighi</li>
-                        <li>Moshi</li>
-                        <li>Shivajinagar</li>
-                    </ol>
-                <li>Mumbai</li>
-                    <ol>
-                        <li>Santakruiz</li>
-                        <li>Vikroli</li>
-                        <li>Mumbra</li>
-                    </ol>
-            </ul>
+    <div>
+        <p>THis is Kalyan <br> 
+            This is 
+        </p>
+
+   <ul style="list-style-type: square; list-style-position: inside;">
+    <li>Potato</li>
+    <li>Tomato</li>
+    <li>Onion</li>
    </ul>
+   <ol style="list-style-position: outside;">
+    <li>Apple</li>
+    <li>banana</li>
+    <li>Grapes</li>
+   </ol>
+   <ul>
+    <li>Cricket</li>
+    <li>Football</li>
+    <li>Hockey</li>
+   </ul>
+   <input type="button" value="Submit">
+   <br>
+   <br>
+   <a href="#">Click Me</a>
 </body>
 </html>
